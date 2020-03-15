@@ -1,9 +1,28 @@
 <script>
-	// logic goes here
+  import Cloud from "./Cloud.svelte";
 </script>
 
 <style>
-	/* styles go here */
+  #backdrop {
+    height: 20em;
+    background-color: aqua;
+    overflow: hidden;
+  }
+
+  #backdrop:nth-child(2n) {
+    animation-delay: 30s;
+  }
+
+  #backdrop:nth-child(3n) {
+    animation-delay: 10s;
+  }
 </style>
 
-<h1>Hello!</h1>
+<div id="backdrop">
+  <Cloud />
+  <Cloud />
+  <Cloud />
+  <Cloud />
+  <Cloud />
+  <Cloud />
+</div>
