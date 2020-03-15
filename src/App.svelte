@@ -1,5 +1,11 @@
 <script>
-	let name = 'world';
+	import Header from './Header.svelte';
+	import Intro from './Intro.svelte';
+	import Resume from './Resume.svelte';
+	import Contact from './Contact.svelte';
 </script>
 
-<h1>Hello {name}!</h1>
+<Header/>
+<Intro/>
+<Resume/>
+<Contact/>

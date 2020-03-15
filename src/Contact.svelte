@@ -1,0 +1,1 @@
+<div id="contact">Here comes the contact info</div>
