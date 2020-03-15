@@ -5,7 +5,8 @@
 <style>
   #backdrop {
     height: 20em;
-    background-color: aqua;
+    width: 100%;
+    background: #00d2ff;
     overflow: hidden;
   }
 
@@ -16,9 +17,16 @@
   #backdrop:nth-child(3n) {
     animation-delay: 10s;
   }
+
+  h1 {
+    color: coral;
+    font-size: 10em;
+    
+  }
 </style>
 
 <div id="backdrop">
+  <h1>Hello!</h1>
   <Cloud />
   <Cloud />
   <Cloud />
