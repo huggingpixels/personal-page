@@ -6,7 +6,6 @@
   #backdrop {
     height: 20em;
     width: 100%;
-    background: #00d2ff;
     overflow: hidden;
   }
 
@@ -27,9 +26,6 @@
 
 <div id="backdrop">
   <h1>Hello!</h1>
-  <Cloud />
-  <Cloud />
-  <Cloud />
   <Cloud />
   <Cloud />
   <Cloud />
