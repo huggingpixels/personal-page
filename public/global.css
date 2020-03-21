@@ -2,7 +2,7 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-color: #00d2ff;
+	background-color: #00d2ff !important;
 }
 
 body {
@@ -10,6 +10,5 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: hidden;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
