@@ -2,7 +2,7 @@
     export let delayTime = Math.floor(Math.random() * Math.floor(15)) +'s';
     export let randomSize = Math.floor(Math.random() * (+250 - +80) + +80);
     export let randomPlaceX = Math.floor(Math.random() * Math.floor(200)) + 'px';
-    export let randomPlaceY = Math.floor(Math.random() * Math.floor(500)) + 'px';
+    export let randomPlaceY = Math.floor(Math.random() * Math.floor(1200)) + 'px';
   </script>
 
 <style>

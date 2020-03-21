@@ -1,4 +1,5 @@
 <script>
+  import { Col } from "sveltestrap";
   import Cloud from "./Cloud.svelte";
 </script>
 
@@ -20,13 +21,14 @@
   h1 {
     color: coral;
     font-size: 10em;
-    
   }
 </style>
 
 <div id="backdrop">
-  <h1>Hello!</h1>
-  <Cloud />
-  <Cloud />
-  <Cloud />
+  <Col>
+    <h1>Hello!</h1>
+    <Cloud />
+    <Cloud />
+    <Cloud />
+  </Col>
 </div>
