@@ -6,8 +6,9 @@
     line-height: 1em;
     font-size: var(--Medium);
   }
-  
+
   .content {
+    width: 50%;
     position: relative;
     top: 50px;
     left: -195px;
