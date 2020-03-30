@@ -19,7 +19,7 @@
   }
 
   h1 {
-    color: coral;
+    color: var(--darkyellow);
     font-size: 10em;
   }
 </style>

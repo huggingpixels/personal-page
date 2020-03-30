@@ -3,6 +3,11 @@
 </script>
 
 <style>
+  a {
+    text-decoration: none;
+    color: var(--darkgreen);
+  }
+  
   .content {
     padding: 0 50px 0 50px;
     justify-content: center;
@@ -15,23 +20,21 @@
 
     height: 400px;
     max-width: 600px;
-    background: white;
-    color: black;
+    background-color: var(--white);
 
     border: 10px solid red;
     border-image: repeating-linear-gradient(
         45deg,
-        red,
-        red 2%,
-        blue 1%,
-        blue 4%
+        var(--darkrose),
+        var(--darkrose) 2%,
+        var(--darkblue) 1%,
+        var(--darkblue) 4%
       )
       10;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
   .right {
-    border-left: 2px solid lightgray;
+    border-left: 1px dashed var(--darkblue);
     position: relative;
     overflow: hidden;
 
@@ -40,7 +43,7 @@
   }
 
   .address {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid var(--darkrose);
     width: 80%;
     position: absolute;
   }
@@ -59,7 +62,8 @@
   #stamp {
     width: 80px;
     height: 100px;
-    background-color: red;
+    background-color: var(--lightgray);
+    border: 5px dotted var(--white);
     float: right;
     transform: rotate(2deg);
   }
@@ -69,7 +73,7 @@
   }
 
   #insta {
-    bottom: 100px;
+    bottom: 130px;
   }
 
   #email {
@@ -97,7 +101,12 @@
         <div id="stamp" />
         <p class="address" id="name">Eszter Szücs-Mátyás</p>
         <p class="address" id="email">eszter.szucs.matyas @gmail.com</p>
-        <p class="address" id="insta">@huggingpixels</p>
+        <a
+          href="https://www.instagram.com/huggingpixels/"
+          class="address"
+          id="insta">
+          @huggingpixels
+        </a>
       </div>
     </div>
   </div>

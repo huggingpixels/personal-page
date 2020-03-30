@@ -1,7 +1,18 @@
 :root {
-	--gradient: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
-	--light: #fff;
-	--grey: #f8f9fa;
+	--black: #000000;
+	--white: #fcfcfc;
+	--lightgray: #bdbdbd;
+	--darkgray: #787878;
+	--lightblue: #3cbcfc;
+	--darkblue: #0078f8;
+	--lightrose: #f8a4c0;
+	--darkrose: #e40058;
+	--lightorange: #f87858;
+	--darkorange: #f83800;
+	--lightyellow: #f8d878|;
+	--darkyellow: #f8b800;
+	--lightgreen: #58d854;
+	--darkgreen: #00a800;
   }
 
 html, body {
@@ -9,6 +20,7 @@ html, body {
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	scroll-behavior: smooth;
-	background-color: #00d2ff;
-	color: #fff;
+	overflow-x: hidden;
+	background-color: var(--lightblue);
+	color: var(--black);;
 }
