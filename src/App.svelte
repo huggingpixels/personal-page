@@ -8,7 +8,7 @@
 
 </script>
 <svelte:head>
-  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
 </svelte:head>
 <!-- <svelte:head>
   <link
