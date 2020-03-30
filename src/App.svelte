@@ -9,11 +9,22 @@
 
 <svelte:head>
   <link
-    href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@500&family=Roboto&family=Rock+Salt&display=swap"
     rel="stylesheet" />
 </svelte:head>
 
-<Header />
-<Intro />
-<Resume />
-<Contact />
+<style>
+div {
+  display: table;
+  margin: var(--Small) 0 var(--Small) 0;
+  height:auto;
+  width: auto;
+}
+</style>
+
+<div>
+  <Header />
+  <Intro />
+  <Resume />
+  <Contact />
+</div>

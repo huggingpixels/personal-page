@@ -3,19 +3,30 @@
 </script>
 
 <style>
-  #backdrop {
-      width: 100%;
-    color: var(--darkblue);
+  .container {
+    width: 100%;
+    
   }
 
-  #text {
-      padding: 5em;
+  .introduction {
+    color: var(--darkblue);
+    font-family: var(--Oswald);
+    font-size: var(--Medium);
+    margin: var(--Medium);
+  }
+
+  em {
+    color: var(--darkgreen);
+    font-family: var(--Handwriting);
+    font-style: normal;
+    background-color: var(--white);
   }
 </style>
 
-<div id="backdrop">
-  <div id="text">
-    Let's make internet a fun place! My name is Eszter and I build webpages which
-    works on every screen size, every device and gives a little smile to the visitors.
+<div class="container">
+  <div class="introduction">
+    Let's make internet a fun place! My name is <em> Eszter </em> and I build webpages
+    which works on every screen size, every device and gives a little smile to
+    the visitors.
   </div>
 </div>

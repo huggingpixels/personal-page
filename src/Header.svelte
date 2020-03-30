@@ -8,6 +8,7 @@
     height: 20em;
     width: 100%;
     overflow: hidden;
+    margin: var(--Medium);
   }
 
   #backdrop:nth-child(2n) {
@@ -20,15 +21,14 @@
 
   h1 {
     color: var(--darkyellow);
-    font-size: 10em;
+    font-family: var(--Abril);
+    font-size: var(--Big);
   }
 </style>
 
 <div id="backdrop">
-  <Col>
     <h1>Hello!</h1>
     <Cloud />
     <Cloud />
     <Cloud />
-  </Col>
 </div>
