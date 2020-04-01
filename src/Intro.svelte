@@ -16,10 +16,12 @@
   }
 
   em {
-    color: var(--darkgreen);
+    color: var(--lightrose);
     font-family: var(--Handwriting);
     font-style: normal;
+    line-height: 1em;
   }
+  
 </style>
 
 <div class="container">

@@ -5,12 +5,18 @@
     font-family: var(--Handwriting);
     line-height: 1em;
     font-size: var(--Medium);
+        background-color: var(--darkgray);
+    padding: var(--Small);
+    border-radius: var(--Small);
+    left: 95px;
+    top: 20px;
+    position: relative;
   }
 
   .content {
-    width: 50%;
+    width: 50vw;
     position: relative;
-    top: 50px;
+    top: 130px;
     left: -195px;
     transform: rotate(-7deg);
   }
@@ -37,7 +43,7 @@
   }
 
   .right {
-    border-left: 1px dashed var(--darkgray);
+    border-left: 2px dashed var(--darkgray);
     position: relative;
     overflow: hidden;
     font-size: var(--Small);
@@ -45,9 +51,10 @@
   }
 
   .address {
-    border-bottom: 3px solid var(--darkblue);
+    border-bottom: 3px solid var(--lightrose);
     width: 90%;
     position: absolute;
+    font-family: var(--Oswald);
   }
 
   .row {

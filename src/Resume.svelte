@@ -5,7 +5,7 @@
 </script>
 
 <style>
-  .wrapper {
+  .container {
     display: flex;
     margin: var(--Small);
     float: right;
@@ -15,8 +15,9 @@
     color: var(--white);
     font-family: var(--Oswald);
     font-size: var(--Medium);
-    background-color: var(--lightgreen);
-    padding: var(--XSmall);
+    background-color: var(--lightrose);
+    padding: var(--Small);
+    border-radius: var(--Small);
     max-width: 600px;
   }
 
@@ -35,7 +36,7 @@
     align-items: center;
     justify-content: center;
 
-    margin: 30px;
+    margin: 5vw;
   }
 
   .coin-center {
@@ -65,7 +66,7 @@
   }
 </style>
 
-<div class="wrapper">
+<div class="container">
   <div class="left-container">
     <button on:click={takeToCV}>
       <p class="coin-center">
