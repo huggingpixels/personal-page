@@ -20,9 +20,9 @@
 	--Handwriting: 'Rock Salt', cursive;
 	--Roboto: 'Roboto', sans-serif;
 
-	--Big: 10em;
-	--Medium: 2em;
-	--Small: 1.7em;
+	--Big: 10vh;
+	--Medium: 4vh;
+	--Small: 3vh;
   }
 
 html, body {

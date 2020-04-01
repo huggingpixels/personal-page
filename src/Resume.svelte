@@ -18,7 +18,7 @@
     background-color: var(--lightrose);
     padding: var(--Small);
     border-radius: var(--Small);
-    max-width: 600px;
+    max-width: 50vw;
   }
 
   button {
@@ -75,9 +75,9 @@
     </button>
   </div>
   <div class="right-container">
-    <p>
+    <span>
       My LinkedIn page is a great place to get to know my resume, click on the
       coin on the left to travel there.
-    </p>
+    </span>
   </div>
 </div>
