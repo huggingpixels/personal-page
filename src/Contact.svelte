@@ -11,7 +11,7 @@
     position: relative;
     float: right;
     left: -35vw;
-    top: -10vh;
+    top: -5vh;
   }
 
   .content {
