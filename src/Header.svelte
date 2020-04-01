@@ -50,7 +50,7 @@
 </style>
 
 <div id="container">
-  <h1>Hello!</h1>
+  <h1>H e l l o!</h1>
 
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -27,7 +27,6 @@
 <div class="container">
   <div class="introduction">
     Let's make internet a fun place! My name is <em> Eszter </em> and I build webpages
-    which works on every screen size, every device and gives a little smile to
-    the visitors.
+    for every screen size, every device and for everyone who likes wholesome design and content.
   </div>
 </div>

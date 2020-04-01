@@ -5,12 +5,13 @@
     font-family: var(--Handwriting);
     line-height: 1em;
     font-size: var(--Medium);
-        background-color: var(--darkgray);
+    background-color: var(--darkgray);
     padding: var(--Small);
     border-radius: var(--Small);
-    left: 95px;
-    top: 20px;
     position: relative;
+    float: right;
+    left: -35vw;
+    top: -50px;
   }
 
   .content {
