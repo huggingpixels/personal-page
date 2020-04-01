@@ -28,8 +28,7 @@
     flex-basis: 0;
 
     height: 400px;
-    max-width: 800px;
-    min-width: 600px;
+    width: 140vw;
     background-color: var(--white);
 
     border: 10px solid red;

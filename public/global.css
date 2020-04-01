@@ -33,3 +33,7 @@ html, body {
 	background-color: var(--lightblue);
 	color: var(--black);
 }
+body {
+	position: absolute;
+	width: 100vw;
+}
