@@ -16,8 +16,6 @@
     "svelte": "^3.20.1"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "sirv-cli": "^0.4.4",
-    "sveltestrap": "^3.3.3"
+    "sirv-cli": "^0.4.4"
   }
 }

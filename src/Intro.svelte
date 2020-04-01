@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
   .container {
     width: 100%;
