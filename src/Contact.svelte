@@ -11,14 +11,14 @@
     position: relative;
     float: right;
     left: -35vw;
-    top: -50px;
+    top: -10vh;
   }
 
   .content {
     width: 50vw;
     position: relative;
-    top: 130px;
-    left: -195px;
+    top: 2vh;
+    left: -25vh;
     transform: rotate(-7deg);
   }
 
@@ -27,11 +27,10 @@
     flex-grow: 1;
     flex-basis: 0;
 
-    height: 400px;
-    width: 140vw;
+    height: 50vh;
     background-color: var(--white);
 
-    border: 10px solid red;
+    border: 1vh solid red;
     border-image: repeating-linear-gradient(
         45deg,
         var(--lightrose),
@@ -40,6 +39,23 @@
         var(--darkblue) 4%
       )
       10;
+  }
+  @media all and (min-width: 960px) {
+    .card {
+      width: 50vw;
+    }
+  }
+
+  @media all and (max-width: 959px) and (min-width: 600px) {
+    .card {
+      width: 80vw;
+    }
+  }
+
+  @media all and (max-width: 599px) and (min-width: 320px) {
+    .card {
+      width: 120vw;
+    }
   }
 
   .right {
@@ -69,8 +85,8 @@
   }
 
   #stamp {
-    width: 80px;
-    height: 100px;
+    width: 45%;
+    height: 30%;
     background-color: var(--lightblue);
     border: 5px dotted var(--white);
     float: right;
@@ -78,11 +94,11 @@
   }
 
   #name {
-    bottom: 100px;
+    bottom: 10vh;
   }
 
   #email {
-    bottom: 10px;
+    bottom: 1vh;
   }
 </style>
 

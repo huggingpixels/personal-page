@@ -5,10 +5,25 @@
 </script>
 
 <style>
-  .container {
-    display: flex;
-    margin: var(--Small);
-    float: right;
+  @media all and (min-width: 600px) {
+    .container {
+      display: flex;
+      margin: var(--Small);
+      float: right;
+    }
+    .right-container {
+      max-width: 50vw;
+    }
+  }
+
+  @media all and (max-width: 599px) and (min-width: 320px) {
+    .container {
+      display: block;
+      margin: var(--Small);
+    }
+    .right-container {
+      width: 90vw;
+    }
   }
 
   .right-container {
@@ -18,7 +33,6 @@
     background-color: var(--lightrose);
     padding: var(--Small);
     border-radius: var(--Small);
-    max-width: 50vw;
   }
 
   button {
@@ -59,7 +73,7 @@
 
   em {
     font-weight: 800;
-    font-size: 90px;
+    font-size: 10vh;
     font-style: normal;
     color: var(--darkyellow);
     text-shadow: 3px 2px 3px var(--shadowyellow);
