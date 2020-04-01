@@ -19,7 +19,6 @@
     color: var(--darkgreen);
     font-family: var(--Handwriting);
     font-style: normal;
-    background-color: var(--white);
   }
 </style>
 
